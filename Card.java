@@ -2,8 +2,8 @@ package player_Deck;
 
 public class Card {
 
-	private int rank;
-	private int suit;
+	private final int rank;
+	private final int suit;
 
 	public static final String[] ranks = { null, "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen",
 			"King" };
@@ -13,6 +13,15 @@ public class Card {
 		this.rank = rank;
 		this.suit = suit;
 
+	}
+
+	// get methods
+	public int getRank() {
+		return this.rank;
+	}
+
+	public int getSuit() {
+		return this.suit;
 	}
 
 	public String toString() {
