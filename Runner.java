@@ -24,6 +24,11 @@ public class Runner {
 		shuffle(shuffledDeck);
 		printDeck(shuffledDeck);
 
+	
+	System.out.println("Hello, Do you want to draw a card?  Y/N");
+	
+	
+	
 	}
 
 	public static void printDeck(Card[] cards) {
